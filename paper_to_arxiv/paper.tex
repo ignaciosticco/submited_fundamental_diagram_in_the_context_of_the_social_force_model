@@ -1,0 +1,93 @@
+\documentclass[twocolumn,showpacs,preprintnumbers,amsmath,amssymb,superscriptaddress]{revtex4-1}
+
+% Some other (several out of many) possibilities
+%\documentclass[preprint,aps]{revtex4}
+%\documentclass[preprint,aps,draft]{revtex4}
+%\documentclass[prb]{revtex4}% Physical Review B
+
+\usepackage{graphicx}% Include figure files
+\usepackage{dcolumn}% Align table columns on decimal point
+\usepackage{bm}% bold math
+\usepackage{epstopdf}
+\usepackage{amssymb}
+\usepackage{verbatim}
+\usepackage{epsfig}
+\usepackage{tikz}        %permite rellenar las figuras (circulos)
+\usepackage{etoolbox}
+
+
+\usepackage{lineno}
+\usepackage[caption=false]{subfig} 
+
+%\usepackage{subcaption}
+\usepackage{mwe}
+\usepackage{subfig}
+%\usepackage{lineno}
+%\usepackage[caption=false]{subfig} 
+
+
+
+%\nofiles
+
+\begin{document}
+
+\newrobustcmd*{\mydiamond}[1]{\tikz{\filldraw[black,fill=#1] 
+(0,0) -- (0.2cm,0.2cm) -- (0.4cm,0) -- (0.2cm,-0.2cm) -- (0,0);}}
+
+\newrobustcmd*{\mytriangleright}[1]{\tikz{\filldraw[black,fill=#1] (0,0.2cm) -- 
+(0.3cm,0) -- (0,-0.2cm);}}
+
+%\preprint{APS/123-QED}
+
+\title{Fundamental diagram in the context of the Social Force Model} %  
+
+ %Lines break automatically or can be forced with \\
+ \author{I.M.~Sticco}
+  \affiliation{Departamento de F\'\i sica, Facultad de Ciencias Exactas y Naturales, Universidad de Buenos Aires,  Pabell\'on I,\\ Ciudad Universitaria, 1428 Buenos Aires, Argentina.}
+ \author{G.A.~Frank}
+  \affiliation{Unidad de Investigaci\'on y Desarrollo de las Ingenier\'\i as, Universidad Tecnol\'ogica Nacional Facultad Regional Buenos Aires,\looseness=-1 \\ Av. Medrano 951, 1179 Buenos Aires, Argentina.}
+ %Lines break automatically or can be forced with \\
+  \author{F.E.~Cornes}
+  \affiliation{Departamento de F\'\i sica, Facultad de Ciencias Exactas y Naturales, Universidad de Buenos Aires,  Pabell\'on I,\\ Ciudad Universitaria, 1428 Buenos Aires, Argentina.}
+  \author{C.O.~Dorso}%
+  \affiliation{Departamento de F\'\i sica, Facultad de Ciencias Exactas y Naturales, Universidad de Buenos Aires,  Pabell\'on I,\\ Ciudad Universitaria, 1428 Buenos Aires, Argentina.}
+ %\email{codorso@df.uba.ar}
+\affiliation{Instituto de F\'\i sica de Buenos Aires, Pabell\'on I, Ciudad Universitaria, 1428 Buenos Aires, Argentina.\looseness=-1}
+ 
+
+
+\date{\today}% It is always \today, today,
+             %  but any date may be explicitly specified
+
+\input{abstract}
+
+\pacs{45.70.Vn, 89.65.Lm}
+
+\maketitle
+
+\input{introduction}
+
+\input{background}
+
+\input{simulations}
+
+\input{results}
+
+\input{conclusions}
+
+\input{acknowledgments}
+
+\appendix
+
+\input{appendix}
+ 
+
+
+\newpage %Just because of unusual number of tables stacked at end
+\bibliography{paper}% Produces the bibliography via BibTeX.
+
+\end{document}
+%
+% ****** End of file apssamp.tex ******
+\grid
+\grid

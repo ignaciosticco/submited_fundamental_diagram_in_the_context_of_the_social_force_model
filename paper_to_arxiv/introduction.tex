@@ -1,0 +1,82 @@
+\section{\label{introduction}Introduction}
+
+By the late '90s and the beginning of the century, Helbing and co-workers 
+postulated that both the environment and the individuals' own desire affect 
+the pedestrians motion in a similar way as forces do with respect to the 
+momentum of particles \cite{Helbing1,Helbing4}. This ``social force model'' 
+(SFM) nicely bridged the socio-psychological phenomenon of crowds 
+behavior to the ``microscopic'' formalism of moving particles. The model 
+succeeded at this instance to explain why the crowd evacuation slows down 
+as pedestrians try harder to escape from a dangerous situation 
+(\textit{i.e.} ``faster is slower'' effect) \cite{Helbing1,Dorso1,Dorso2}. \\ 
+
+The SFM, in its basic version, was reported to be suitable for describing, 
+at least qualitatively, a variety of panic situations, including the presence
+of obstacles, or the existence of more than one exit \cite{Dorso3,Dorso5}.
+More sophisticated scenarios required, however, a step up implementation
+\cite{Dorso4,Dorso6,Cornes1}, although sustaining the basic model and its parameters.  \\
+
+Some questioning arose on the true psychological tendency of the pedestrians to 
+stay away from each other. While the social forces accomplish this tendency, it 
+attains a somewhat unrealistic ``colliding behavior'' for slowly moving 
+pedestrians \cite{Lakoba}. His (her) repulsive tendency is expected to decrease 
+as approaching a more crowded environment. The small fall-off length $B=0.08\,$m 
+suggested by Helbing in Ref.~\cite{Helbing1} does not completely solve this 
+issue. It neither agrees with the fact that pedestrians prefer to keep a 
+comfortable $0.5\,$m distance between each other in a moderately crowded 
+environment, nor it fits accurately the empirical velocities reported for 
+non-panicking crowds \cite{Lakoba}.  \\
+
+Researchers turned back to examine the available data on the velocity and flux 
+behavior for different density environments \cite{helbing3,seyfried,seyfried1}. 
+Ref.~\cite{helbing3} is a wonderful summary of empirical data from literature, 
+and their own data set, acquired from videos of the Muslim pilgrimage in 
+Mina-Makkah (2006). They showed from the empirical fundamental diagram (flux $J$ 
+versus density $\rho$) that highly dense crowds (seemingly up to $10\,$p/m$^2$) 
+do not drive the pedestrians velocity to zero, although the reasons for this 
+remain rather obscure.   \\
+
+
+The high density regime appears to be the most cumbersome one. Caution was 
+claimed when (automatically) transferring the usual ``calibrated'' parameters 
+of the SFM to this regime. It was argued that the pedestrians' body size 
+distribution and the ``situational context'' are somewhat responsible for the 
+unexpected departure from these parameters \cite{johansson1,kwak}. But other 
+researchers pointed out that this departure actually expresses the lack of a 
+mechanism to properly handle the pedestrians' ``required space to move''. Some 
+modifications to the basic SFM were then proposed to overcome this difficulty 
+\cite{parisi2,seyfried2}. \\
+
+A mechanism allowing an ``increase of the space to move'' (particularly in relaxed/low density situations) is a compelling necessity in the context of the SFM.
+But a sharp ``re-calibration'' of the model for high density situations appears not 
+to be completely satisfactory \cite{johansson}. A more ``natural'' way of 
+handling this matter requires a deep examination of the current SFM parameters. 
+The net-time headway (roughly, the relaxation time) was first examined in 
+Ref.~\cite{johansson}. The author sustains the hypothesis that the 
+pedestrians net-time headway should increase until there is ``enough space to 
+make a step''.  He shows that a density dependent net-time headway is a 
+suitable parameter to smartly reproduce the empirical fundamental diagram for 
+highly dense crowds \cite{johansson}.  \\ 
+
+Our own examination of the SFM parameters suggests that not only the net-time 
+headway, but the friction between pedestrians (and with the walls) can 
+reproduce the pattern of the fundamental diagram. Our working hypothesis is 
+that friction is the crucial parameter in the dynamics of highly dense crowds. 
+We actually sustain the SFM model with no further ``re-calibrations'', but 
+with the right friction setting, in order to meet the fundamental diagram 
+pattern. \\  
+
+We want to emphasize that although the friction setting appearing in 
+Ref.~\cite{Helbing1} is a commonly accepted estimate throughout the  
+literature, other values have also been proposed \cite{colombi2017}. We 
+intend our setting, however, as an experimental based parameter, suitable for 
+high dense crowds. \\
+
+The investigation is organized as follows. We first recall the SFM in 
+Section~\ref{sfm}, while including the precise definitions for flux, density 
+and clustered structures. Section~\ref{simulations} presents our numerical 
+simulations for pedestrians moving through corridors. The corresponding results 
+are shown in Section~\ref{results}. Our main conclusions are detailed in the 
+closing Section~\ref{conclusions}. A complementary simple model for pedestrians 
+moving through a corridor has been included in the Appendix. \\     
+
