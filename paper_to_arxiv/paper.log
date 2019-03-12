@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.31)  27 DEC 2018 16:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.31)  22 FEB 2019 13:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -864,7 +864,7 @@ runsystem(repstopdf --outfile=./plots/corridor-eps-converted-to.pdf ./plots/cor
 ridor.eps)...executed safely (allowed).
 
 Package epstopdf Info: Result file: <./plots/corridor-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-12-27 16:26:59
+(epstopdf)                    date: 2019-02-22 13:30:47
 (epstopdf)                    size: 15048 bytes.
 
 
@@ -922,7 +922,7 @@ ed).
 
 Package epstopdf Info: Result file: <plots/flow-density_vd1_multiple_widths-eps
 -converted-to.pdf>
-(epstopdf)                    date: 2018-12-27 16:27:00
+(epstopdf)                    date: 2019-02-22 13:30:52
 (epstopdf)                    size: 22032 bytes.
 
 
@@ -965,7 +965,7 @@ owed).
 
 Package epstopdf Info: Result file: <plots/speed-density_vd1_multiple_widths-ep
 s-converted-to.pdf>
-(epstopdf)                    date: 2018-12-27 16:27:01
+(epstopdf)                    date: 2019-02-22 13:30:53
 (epstopdf)                    size: 21532 bytes.
 
 
@@ -1011,7 +1011,7 @@ v_y_width22_k24.eps)...executed safely (allowed).
 
 Package epstopdf Info: Result file: <plots/v_y_width22_k24-eps-converted-to.pdf
 >
-(epstopdf)                    date: 2018-12-27 16:27:01
+(epstopdf)                    date: 2019-02-22 13:30:54
 (epstopdf)                    size: 18140 bytes.
 
 
@@ -1043,7 +1043,7 @@ v_y_multi_width.eps)...executed safely (allowed).
 
 Package epstopdf Info: Result file: <plots/v_y_multi_width-eps-converted-to.pdf
 >
-(epstopdf)                    date: 2018-12-27 16:27:02
+(epstopdf)                    date: 2019-02-22 13:30:55
 (epstopdf)                    size: 14863 bytes.
 
 
@@ -1074,7 +1074,7 @@ df plots/v_y_multi_width_normaliz.eps)...executed safely (allowed).
 
 Package epstopdf Info: Result file: <plots/v_y_multi_width_normaliz-eps-convert
 ed-to.pdf>
-(epstopdf)                    date: 2018-12-27 16:27:03
+(epstopdf)                    date: 2019-02-22 13:30:56
 (epstopdf)                    size: 15564 bytes.
 
 
@@ -1127,7 +1127,7 @@ runsystem(repstopdf --outfile=plots/abswg_width10-eps-converted-to.pdf plots/ab
 swg_width10.eps)...executed safely (allowed).
 
 Package epstopdf Info: Result file: <plots/abswg_width10-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-12-27 16:27:04
+(epstopdf)                    date: 2019-02-22 13:30:57
 (epstopdf)                    size: 36070 bytes.
 
 
@@ -1151,7 +1151,7 @@ runsystem(repstopdf --outfile=plots/abswg_width15-eps-converted-to.pdf plots/ab
 swg_width15.eps)...executed safely (allowed).
 
 Package epstopdf Info: Result file: <plots/abswg_width15-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-12-27 16:27:05
+(epstopdf)                    date: 2019-02-22 13:30:58
 (epstopdf)                    size: 56549 bytes.
 
 
@@ -1175,7 +1175,7 @@ runsystem(repstopdf --outfile=plots/abswg_width22-eps-converted-to.pdf plots/ab
 swg_width22.eps)...executed safely (allowed).
 
 Package epstopdf Info: Result file: <plots/abswg_width22-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-12-27 16:27:06
+(epstopdf)                    date: 2019-02-22 13:31:00
 (epstopdf)                    size: 87812 bytes.
 
 
@@ -1275,7 +1275,7 @@ ed safely (allowed).
 
 Package epstopdf Info: Result file: <plots/flow-density_pasillo22m_fgmodified_m
 ulti-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-12-27 16:27:07
+(epstopdf)                    date: 2019-02-22 13:31:00
 (epstopdf)                    size: 17063 bytes.
 
 
@@ -1343,7 +1343,7 @@ ed).
 
 Package epstopdf Info: Result file: <plots/size_distribution_w22_density4_5-eps
 -converted-to.pdf>
-(epstopdf)                    date: 2018-12-27 16:27:08
+(epstopdf)                    date: 2019-02-22 13:31:01
 (epstopdf)                    size: 12677 bytes.
 
 
@@ -1376,7 +1376,7 @@ ely (allowed).
 
 Package epstopdf Info: Result file: <plots/size_distribution_w22_density4_5_kx1
 0-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-12-27 16:27:09
+(epstopdf)                    date: 2019-02-22 13:31:02
 (epstopdf)                    size: 13405 bytes.
 
 
@@ -1406,7 +1406,7 @@ d-to.pdf plots/size_distribution_w22_density5.eps)...executed safely (allowed).
 
 Package epstopdf Info: Result file: <plots/size_distribution_w22_density5-eps-c
 onverted-to.pdf>
-(epstopdf)                    date: 2018-12-27 16:27:10
+(epstopdf)                    date: 2019-02-22 13:31:03
 (epstopdf)                    size: 12680 bytes.
 
 
@@ -1438,7 +1438,7 @@ verted-to.pdf plots/size_distribution_w22_density5_kx10.eps)...executed safely
 
 Package epstopdf Info: Result file: <plots/size_distribution_w22_density5_kx10-
 eps-converted-to.pdf>
-(epstopdf)                    date: 2018-12-27 16:27:10
+(epstopdf)                    date: 2019-02-22 13:31:04
 (epstopdf)                    size: 12511 bytes.
 
 
@@ -1470,7 +1470,7 @@ ed).
 
 Package epstopdf Info: Result file: <plots/size_distribution_w22_density5_5-eps
 -converted-to.pdf>
-(epstopdf)                    date: 2018-12-27 16:27:11
+(epstopdf)                    date: 2019-02-22 13:31:05
 (epstopdf)                    size: 12522 bytes.
 
 
@@ -1503,7 +1503,7 @@ ely (allowed).
 
 Package epstopdf Info: Result file: <plots/size_distribution_w22_density5_5_kx1
 0-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-12-27 16:27:12
+(epstopdf)                    date: 2019-02-22 13:31:06
 (epstopdf)                    size: 12435 bytes.
 
 
@@ -1548,7 +1548,7 @@ runsystem(repstopdf --outfile=plots/fracc_clusteriz_vs_density-eps-converted-to
 
 Package epstopdf Info: Result file: <plots/fracc_clusteriz_vs_density-eps-conve
 rted-to.pdf>
-(epstopdf)                    date: 2018-12-27 16:27:13
+(epstopdf)                    date: 2019-02-22 13:31:06
 (epstopdf)                    size: 21629 bytes.
 
 
@@ -1665,7 +1665,7 @@ runsystem(repstopdf --outfile=./plots/pasillo-eps-converted-to.pdf ./plots/pasi
 llo.eps)...executed safely (allowed).
 
 Package epstopdf Info: Result file: <./plots/pasillo-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-12-27 16:27:13
+(epstopdf)                    date: 2019-02-22 13:31:07
 (epstopdf)                    size: 10945 bytes.
 
 
@@ -1711,7 +1711,7 @@ runsystem(repstopdf --outfile=./plots/fig_velocity_model-eps-converted-to.pdf .
 
 Package epstopdf Info: Result file: <./plots/fig_velocity_model-eps-converted-t
 o.pdf>
-(epstopdf)                    date: 2018-12-27 16:27:14
+(epstopdf)                    date: 2019-02-22 13:31:08
 (epstopdf)                    size: 12723 bytes.
 
 
@@ -1748,7 +1748,7 @@ ts/fig_flux_model.eps)...executed safely (allowed).
 
 Package epstopdf Info: Result file: <./plots/fig_flux_model-eps-converted-to.pd
 f>
-(epstopdf)                    date: 2018-12-27 16:27:15
+(epstopdf)                    date: 2019-02-22 13:31:08
 (epstopdf)                    size: 9905 bytes.
 
 
@@ -1793,7 +1793,7 @@ runsystem(repstopdf --outfile=./plots/fis_kx10-eps-converted-to.pdf ./plots/fis
 _kx10.eps)...executed safely (allowed).
 
 Package epstopdf Info: Result file: <./plots/fis_kx10-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-12-27 16:27:16
+(epstopdf)                    date: 2019-02-22 13:31:09
 (epstopdf)                    size: 19442 bytes.
 
 
@@ -1825,7 +1825,7 @@ runsystem(repstopdf --outfile=./plots/fis_cociente-eps-converted-to.pdf ./plots
 
 Package epstopdf Info: Result file: <./plots/fis_cociente-eps-converted-to.pdf>
 
-(epstopdf)                    date: 2018-12-27 16:27:17
+(epstopdf)                    date: 2019-02-22 13:31:10
 (epstopdf)                    size: 12157 bytes.
 
 
@@ -1848,7 +1848,7 @@ LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
 Here is how much of TeX's memory you used:
  16328 strings out of 493029
  303653 string characters out of 6136233
- 460619 words of memory out of 5000000
+ 459619 words of memory out of 5000000
  19498 multiletter control sequences out of 15000+600000
  14639 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1879,7 +1879,7 @@ r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/urw/ncntrsbk/uncr8a.pfb>
-Output written on paper.pdf (15 pages, 628206 bytes).
+Output written on paper.pdf (15 pages, 628210 bytes).
 PDF statistics:
  464 PDF objects out of 1000 (max. 8388607)
  391 compressed objects within 4 object streams
