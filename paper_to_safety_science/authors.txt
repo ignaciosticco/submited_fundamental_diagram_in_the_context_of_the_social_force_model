@@ -1,0 +1,23 @@
+\author[label1]{I.M.~Sticco}
+\author[label3]{G.A.~Frank}
+\author[label1]{F.E.~Cornes}
+\author[label1,label2]{C.O.~Dorso}
+\address[label1]{Departamento de F\'\i sica, Facultad de Ciencias 
+Exactas y Naturales, Universidad de Buenos Aires, Pabell\'on I, Ciudad 
+Universitaria, 1428 Buenos Aires, Argentina.}
+\address[label2]{Instituto de F\'\i sica de Buenos Aires, Pabell\'on I, Ciudad 
+Universitaria, 1428 Buenos Aires, Argentina.}
+\address[label3]{ Unidad de Investigaci\'on y Desarrollo de las 
+Ingenier\'\i as, Universidad Tecnol\'ogica Nacional, Facultad Regional Buenos 
+Aires, Av. Medrano 951, 1179 Buenos Aires, Argentina.}
+
+
+En la cover letter
+
+Ignacio M. Sticco, Guillermo A. Frank, Fernando E. Cornes and Claudio O. Dorso
+
+
+Departamento de Fisica – Facultad de Ciencias Exactas y Naturales
+Universidad de Buenos Aires
+Pabellon I, Ciudad Universitaria
+1428, Buenos Aires, Argentina

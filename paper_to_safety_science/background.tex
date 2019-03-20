@@ -1,0 +1,123 @@
+\section{\label{background}Background}
+
+\subsection{\label{sfm}The Social Force Model}
+
+Our research was carried out in the context of the ``social force model'' (SFM) 
+proposed by Helbing and co-workers \cite{Helbing1}. This model states that human 
+motion is caused by the desire of people to reach a certain destination, as 
+well as other environmental factors. The pedestrians behavioral pattern in a 
+crowded environment can be modeled by three kind of forces: the ``desire 
+force'', the ``social force'' and the ``granular force''.\\
+
+The ``desire force'' represents the pedestrian's own desire to reach a 
+specific target position at a desired velocity $v_d$. But, in order to reach 
+the desired target, he (she) needs to accelerate (decelerate) from his (her) 
+current velocity $\mathbf{v}^{(i)}(t)$. This acceleration (or deceleration) 
+represents a ``desire force'' since it is motivated by his (her) own 
+willingness. The corresponding expression for this forces is 
+
+\begin{equation}
+        \mathbf{f}_d^ {(i)}(t) =  
+m_i\,\displaystyle\frac{v_d^{(i)}\,\mathbf{e}_d^
+{(i)}(t)-\mathbf{v}^{(i)}(t)}{\tau} \label{desired}
+\end{equation}
+
+where $m_i$ is the mass of the pedestrian $i$. $\mathbf{e}_d$ 
+corresponds to the unit vector pointing to the target position and $\tau$ is a 
+constant related to the relaxation time needed to reach his (her) desired 
+velocity. For simplicity, we assume that 
+$v_d$ remains constant during the entire process and is the same for all 
+individuals, but $\mathbf{e}_d$ changes according to the current position of the 
+pedestrian. Detailed values for $m_i$ and $\tau$ can be found in 
+Refs.~\cite{Helbing1,Dorso3}. \\
+
+The ``social force'' represents the psychological tendency of any two pedestrians,  
+say $i$ and $j$, to stay away from each other. It is represented by a repulsive interaction force 
+
+\begin{equation}
+        \mathbf{f}_s^{(ij)} = A_i\,e^{(R_{ij}-r_{ij})/B_i}\mathbf{n}_{ij} 
+        \label{social}
+\end{equation}
+
+where $(ij)$ means any pedestrian-pedestrian pair, or pedestrian-wall 
+pair. $A_i$ and $B_i$ are fixed values, $r_{ij}$ is the distance between  the 
+center of mass of the pedestrians $i$ and $j$ and the distance $R_{ij}=R_i+R_j$ 
+is the sum of the pedestrians radius. $\mathbf{n}_{ij}$ means the unit vector in 
+the $\vec{ji}$ direction.\\
+
+Any two pedestrians touch each other if their distance $r_{ij}$ is smaller than 
+$R_{ij}$. Analogously, any pedestrian touches a wall if his (her) distance $r_{ij}$ to the wall is smaller than $R_i$. In these cases, an additional force is included in the model, called the ``granular force''(\textit{i.e.} friction force). This force is considered to be a linear function of the relative (tangential) velocities of the contacting individuals. In the case of the friction exerted by the wall, the force is a linear function of the pedestrian tangential velocity. 
+Its mathematical expression reads 
+
+\begin{equation}
+        \mathbf{f}_g^{(ij)} = 
+\kappa\,(R_{ij}-r_{ij})\,\Theta(R_{ij}-r_{ij})\,\Delta
+\mathbf{v}^{(ij)}\cdot\mathbf{t}_{ij} 
+        \label{granular}
+\end{equation}
+
+where $\kappa$ is the friction coefficient. The function 
+$\Theta(R_{ij}-r_{ij})$ is zero when its argument is negative (that is, 
+$R_{ij}<r_{ij}$) and equals unity for any other case (Heaviside function). 
+$\Delta\mathbf{v}^{(ij)}\cdot\mathbf{t}_{ij}$ represents the difference between 
+the tangential velocities of the sliding bodies (or between the individual and 
+the walls).   
+
+The above forces actuate on the pedestrians dynamics by changing his (her) 
+current velocity. The equation of motion for pedestrian $i$ reads
+
+\begin{equation}
+m_i\,\displaystyle\frac{d\mathbf{v}^{(i)}}{dt}=\mathbf{f}_d^{(i)}
++\displaystyle\sum_{j=1}^{N}\displaystyle\mathbf{f}_s^{(ij)}
++\displaystyle\sum_ {
+j=1}^{N}\mathbf{f}_g^{(ij)}\label{eq_mov}
+\end{equation}
+
+where the subscript $j$ represents all the other pedestrians 
+(excluding $i$).\\
+
+In the original model, there is no distinction between the friction coefficient of pedestrian-pedestrian interaction and pedestrian-wall interaction. Both interactions are modeled with the same constant estimated parameter $\kappa$. In this paper we analyze situations in which the friction coefficient may take different values. We define $\kappa_i$ and $\kappa_w$ as the friction coefficient related to the pedestrian-pedestrian interaction and the pedestrian-wall interaction, respectively. 
+
+\subsection{\label{fundamental-diagram} Fundamental Diagram}
+
+Inspired from vehicular traffic dynamic studies, many researches on pedestrian dynamics focus their attention on the relation between the flow and the density of a moving crowd. This relation is represented by ``fundamental diagram" and it has become one of the most common ways to characterize the pedestrians' dynamics along a corridor in unidirectional and bidirectional flows \cite{fruin1,mori1,polus1,seyfried1,jelic1}. \\
+
+We follow the same definition as in in Ref.~\cite{helbing3} regarded to the fundamental diagram analysis. That is, we mean by the local density at place $\vec{r}=(x,y)$ and time $t$ the following expression
+
+\begin{equation}
+\rho(\vec{r},t)=\sum_{j}f(\vec{r}_j(t)-\vec{r}) \label{ec-density}
+\end{equation}
+
+where function $f(\vec{r}_j(t)-\vec{r})$ is a Gaussian distance-dependent weight function defined as
+
+\begin{equation}
+f(\vec{r}_j-\vec{r})=\frac{1}{\pi R^2}\exp[-\left \| \vec{r}_j-\vec{r} \right \|^2/R^2] \label{ec-f}
+\end{equation}
+
+$\vec{r}_j(t)$ are the positions of the pedestrians $j$ in the surroundings of $\vec{r}$ and $R$ is a parameter that ponders more significantly to the pedestrians inside the circle shown in Fig.~\ref{corridor} . 
+The local speeds are defined as the weighted average  
+
+\begin{equation}
+\vec{V}(\vec{r},t)=\frac{\sum_j \vec{v}_jf(\vec{r}_j(t)-\vec{r}) }{\sum_j f(\vec{r}_j(t)-\vec{r}) } \label{ec-v}
+\end{equation}
+
+while flow is determined according to the fluid-dynamic formula
+
+\begin{equation}
+\vec{J}(\vec{r},t)=\rho(\vec{r},t)\vec{V}(\vec{r},t) \label{ec-flow}
+\end{equation}
+
+It is well known that the seminal version of the social force model is incapable of reproducing the fundamental diagram at high densities (say above 5 p/m$^{2}$). Different approaches were proposed to fix this drawback: increasing the net-time headway~\cite{johansson}, canceling the desired velocity~\cite{parisi2} or even inducing the jamming state by an attraction target~\cite{kwak}. These approaches seems suitable when individuals are not so anxious to reach a certain destination. However, when individuals are escaping or rushing due to a stressful situation, pedestrians would neither consider reducing their desired force nor being captured by an attraction.
+
+\subsection{\label{granular-cluster} Clustering structures}
+
+A characteristic feature of pedestrian dynamics is the formation of clusters. Clusters of pedestrians can 
+be defined as the set of individuals that for any member of the group (say, $i$) there exists at least another member belonging to the same group ($j$) in contact with the former. Thus, we define a ``granular cluster'' ($C_g$) following the mathematical formula given in Ref.~\cite{Dorso1}
+
+\begin{equation}
+C_g:P_i~\epsilon~ C_g \Leftrightarrow \exists~ j~\epsilon~C_g / r_{ij} < (R_i+R_j) \label{ec-cluster}
+\end{equation}
+
+where ($P_i$) indicate the \textit{ith} pedestrian and $R_i$ is his (her) radius (shoulder width). That means, $C_g$ is a
+set of pedestrians that interact not only with the social and the desired forces, but also with granular forces (\textit{i.e.} friction forces).
+The size of the cluster is defined as the number of pedestrians belonging to it. The fraction of clustered individuals is defined as the ratio between clustered individuals with respect to the total number of individuals in the crowd. In Section \ref{clusters} we analyze the clustering structures in terms of these two observables. 
