@@ -78,6 +78,7 @@ e_te_mean_kx10=promedia_te(te_kx10,iter_total,vd_total)[1]
 
 fig, ax1 = plt.subplots()
 
+pylab.yticks(np.arange(0,900,200))
 plt.plot(list_vd,te_mean_kx10,'-bo',mew=0.7,markersize=4,label='$\\kappa=2.4\\times10^{6}$') 
 plt.errorbar(list_vd,te_mean_kx10,e_te_mean_kx10,linestyle='none',fmt='none',color='none',ecolor='b') 
 
