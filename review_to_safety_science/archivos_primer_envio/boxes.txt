@@ -1,0 +1,10 @@
+https://www.evise.com/profile/#/SAFETY/login
+
+What you consider innovative about your paper:
+
+We consider this paper is a great contribution to the modeling of pedestrian dynamics. The paper propose a solution to modeling large crowds in high density environments using a classical model (Social Force Model). We propose a straightforward solution to mimic the qualitative behaviors of a large pilgrimage. 
+
+How your paper relates to the scope of Safety Science
+
+This paper relates to the scope of Safety Science since we propose a novel improvement to a well known model of pedestrian dynamics (the social force model). This improvement yields simulations capable of reproducing empirical behaviors of large crowds. We consider this paper could be a fundamental step in order to properly simulate high density environments such as emergency evacuations, music concerts and public transport situations. We consider that understanding and (properly) simulating this kind of situations, can be a contribution in the design of buildings and pedestrian facilities to improve safety conditions. 
+
